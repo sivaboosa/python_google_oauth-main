@@ -56,7 +56,7 @@ def authorize():
     return redirect('/home')
 
 
-@app.route('/logout')
-def logout():
+@app.route('/Submit')
+def Submit():
     session.clear()
     return redirect('/')
