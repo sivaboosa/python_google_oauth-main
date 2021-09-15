@@ -1,0 +1,71 @@
+<html>
+
+<head>
+  <title>Login with Google</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+    integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="container-fluid col-12" style="padding: 40px 0px">
+    <div class="container col-12" style="padding: 1% 10%; background-color: #eaeaea;">
+      <center>
+        <div>
+            <h3>Registration Form</h3>
+            <br>
+            <form style="background-color: honeydew;">
+                <div class="form-group col-7">
+                    <label>FirstName</label>
+                    <input type="text" name="Firstname" class="form-control"placeholder= " Enter your first name">
+                </div>
+                <div class="form-group col-7">
+                    <label>Lastname</label>
+                    <input type="text" name="Lastname" class="form-control"placeholder=" Enter your last name">
+                </div>
+                 <div class="form-group col-7">
+                    <label>Email</label>
+                    <input type="email" name="Email" class ="form-control"placeholder=" Enter your E-mail">
+                </div>
+                <div class="form-group col-7">
+                  <label>Phonenumber</label>
+                  <input type="text" name="Number" class="form-control"placeholder= " Enter your Phone Number">
+              </div>
+              <div class="form-group col-7">
+                <label>Password</label>
+                <input type="Password" name="Pass" class="form-control"placeholder= " Enter your New Password">
+            </div><br>
+            <div class="form-group col-7">
+            <select class="form-control" name="gender">
+              <option>Choose Gender..</option>
+              <option>Male</option>
+              <option>Female</option>
+              <option>Others</option>
+          </select>
+          </div>
+                <br>
+                <br>
+            </form>
+            <a href="/Submit"><button class="btn btn-warning">Submit</button></a>
+        </div>
+      </center>
+    </div>
+  </div>
+  <style>
+      .form-group{
+          text-align: left;
+      }
+      .form-group label{
+          font-weight: bold;
+      }
+      img{
+          max-width: 200px;
+      }
+  </style>
+</body>
+
+
+</html>
